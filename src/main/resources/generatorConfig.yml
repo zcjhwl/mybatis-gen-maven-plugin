@@ -1,0 +1,32 @@
+mybatisGenerator:
+    datasource:
+        type: mysql
+        address: localhost:3306
+        db: test
+        username: root
+        password: root
+
+    targetPackage:
+        model: com.example.domain
+        mapper: com.example.dao
+        xmlmapper: mybatis
+        javaXmlFilesSamePackage: true
+
+    targetRuntime: MyBatis3
+    mapperSuffixName: mapper
+    java8: false
+    disableExample: true
+
+    plugins:
+        comment: true
+        lombok: false
+        swagger: false
+        mapperAnnotation: false
+        serializable: false
+
+    tables:
+        - user
+        - role
+
+
+
