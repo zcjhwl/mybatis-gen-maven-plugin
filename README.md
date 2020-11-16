@@ -1,0 +1,1 @@
+mybatis-gen-maven-plugin
